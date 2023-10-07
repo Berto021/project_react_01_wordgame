@@ -6,8 +6,8 @@
 ## Ele começa com:
 - 5 tentativas
 - score zerado e ganha 100 a cada palavra acertada
-- uma dica sobre a categoria da palavra
-- e a quantidade de white squares equivalente as letras da palavra a ser adivinhada
+- Uma dica sobre a categoria da palavra
+- Uma quantidade de white squares equivalente as letras da palavra a ser adivinhada
 
 ![photo1](https://github.com/Berto021/project_react_01_wordgame/assets/123036971/4f234918-5565-4158-bc05-b57f707fd1b0)
 
