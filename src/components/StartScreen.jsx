@@ -1,4 +1,4 @@
-import  "./StartScreen.css"
+import  "./StartScreen.module.css"
 
 const StartScreen = ({startGame}) => {
 
