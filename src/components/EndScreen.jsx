@@ -7,13 +7,15 @@ import gatinho300 from '../assets/gatinho_300.jpg';
 import gatinho400 from '../assets/gatinho_400.jpg';
 import gatinho500 from '../assets/gatinho_500.jpg';
 
-const EndScreen = ({ backToStart, retry, score }) => {
+const EndScreen = ({ backToStart, retry, score, pickedWord }) => {
   return (
     <div>
+      
       <h1>Game Over</h1>
       <h2>
         Sua pontuação foi <span>{score}</span>
       </h2>
+      <h2> A palavra era <span>{pickedWord}</span></h2>
       <button onClick={retry}>Finalize o game</button>
       {score <= 100 && <h1>Se esforce mais</h1>}
       {score == 200 && <h1>Continue tentando</h1>}

@@ -153,7 +153,7 @@ function App() {
         />
       )}
       {gameStage === 'end' && (
-        <EndScreen backToStart={backToStart} retry={retry} score={score} />
+        <EndScreen backToStart={backToStart} retry={retry} score={score} pickedWord={pickedWord} />
       )}
     </div>
   );

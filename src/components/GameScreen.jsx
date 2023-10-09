@@ -62,9 +62,9 @@ const GameScreen = ({
         </form>
       </div>
       <div className="wrongLetterContainer">
-        <p>Letras utilizadas:</p>
+        <p> Letras utilizadas:</p>
         {wrongLetters.map((letter, i) => (
-          <span key={i}>{letter},</span>
+          <span className='wrong_letter' key={i}><s>{letter}</s>  </span>
         ))}
       </div>
     </div>

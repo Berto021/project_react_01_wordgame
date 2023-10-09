@@ -5,3 +5,20 @@
   margin-bottom: 2.5em;
   color: yellow;
 }
+.img_Container{
+  overflow: hidden;
+  height: 350px;
+  width: 600px;
+  margin-bottom: 30px;
+  
+ 
+  
+}
+.gato_inicial{
+  width:38%;
+  border-radius: 10%;
+  
+}
+.sub_tittle{
+  color: gold;
+}
